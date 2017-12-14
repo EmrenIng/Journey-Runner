@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet"  href="assets/css/reset.css"> 
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+		
+<h1> Journey Runner </h1>
+<div class="main">
+	<div class="rules"> You're planning a trip in the woods, in order to surivive you must pack the right amount of things: <b>Target Score</b><br>
+	There are four items to which you can bring. Each assigned a random number. You lose if your total score goes above the target. <br>
+	The value of each item is hidden until clicked. <br>
+	Restarting the game will restart the values. </div>
+			
+			<div class="items">
+				<p> 
+				<img src="assets/images/shield.png" alt="" id="shield" />
+				<img src="assets/images/health.png" alt="" id="health" />
+				<img src="assets/images/food.png" alt="" id="food" />
+				<img src="assets/images/knife.png" alt="" id="knife" />
+				</p>
+			</div>
+
+
+ 
+<h3>Target </h3>
+ <div class="inputs" id="target-score"> 78 </div>
+
+ <h3>Your Score </h3>
+ <div class="inputs" id="yScore"> 0 </div>
+
+ <h3> Win Count: </h3>
+ <div class="inputs" id="winCount">0</div>
+
+
+ <h3> Loss Count: </h3>
+ <div class="inputs" id="lossCount">0</div>
+</div>
+<iframe width="0" height="0" src="https://www.youtube.com/embed/0njLoYAHvhI?autoplay=1" frameborder="0" gesture="media" allowscriptaccess="always" allowfullscreen="false"></iframe>
+ 	
+
+<script src="assets/javascript/javascript.js"></script>	
+</body>
+</html>
